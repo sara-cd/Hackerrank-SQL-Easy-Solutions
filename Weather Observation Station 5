@@ -1,0 +1,9 @@
+SELECT TOP(1) city, LEN(city)
+FROM station
+GROUP BY city
+ORDER BY LEN(city), city;
+
+SELECT TOP(1) city, LEN(city)
+FROM station
+GROUP BY city
+ORDER BY LEN(city) DESC, city;
